@@ -1,0 +1,203 @@
+#colors{
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    padding: 1em 2em;
+    background-color: #ba2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.link_botao {
+    font-size: 12px;
+}
+.botao {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 2em 1em;
+}
+.banner {
+    margin: 1em 0px;
+    height: 600px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    display: flex;
+    align-items: center;
+}
+.banner_texto {
+    background-color: rgba(242, 134, 27, 0.75);
+    width: 35%;
+    padding: 2em 2em;
+}
+.banner_titulo {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.baner_desc{
+    font-size: 0.75em;
+    margin: 1.5em 0px;
+}
+.banner_botao {
+    background-color: #302727;
+    width: 35%;
+    border: 2px solid #f2861b;
+    padding: 1em 1em;
+}
+
+.banner_link {
+    font-weight: lighter;
+}
+
+.pagamento {
+    margin: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cards {
+    margin: 4em 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 20%;
+    border: 1px solid #302727;
+    justify-content: center;
+    padding: 3em 2em;
+    border-radius: 5px;
+}
+.card_texto {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 3em;
+}
+.beneficios {
+    height: 400px;
+    background-color: #302727;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beneficios_texto{
+    text-align: left;
+    margin: 1em 1em;
+}
+.beneficios_titulo{
+    font-size: 2em;
+    text-transform: capitalize;
+    margin: 1em 1.5em;
+}
+.beneficios_img {
+    margin: 1em;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.diversidade {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em 0px;
+    
+}
+
+.diversidade_quadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em 4em;
+}
+.diversidade_img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(images/cartaoUm.jpg);
+}
+.img2 {
+    background-image: url(images/cartaoDois.jpg);    
+}
+.img3 {
+    background-image: url(images/cartaoTres.jpg);
+}
+
+.atendimento {
+    text-align: center;
+}
+
+.tabela_caixa {
+    margin: 2em auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 15px 10px 50px rgba(95, 91, 91, 0.745);
+    width: 60%;
+    padding: 1.5em;
+}
+
+.tabela_titulo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.tabela {
+    margin: 2em auto;
+}
+
+.celula_principal {
+    color: white;
+    background-color: #ba2d2d;
+    font-weight: bold;
+}
+
+.celula {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.rodape {
+    padding: 1.5em 0px;
+    background-color: #ba2d2d;
+    
+    text-align: center;
+}
+.rodape p { 
+    color: white;
+    font-size: 0.75em;
+}
+
